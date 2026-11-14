@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head><meta charset="UTF-8"><title>Desk card · The Great Silence Deck</title>
+<style>
+@font-face{font-family:'Domine';src:url('fonts/Domine.ttf')}
+@font-face{font-family:'Funnel Sans';src:url('fonts/FunnelSans.ttf')}
+@font-face{font-family:'Funnel Sans';src:url('fonts/FunnelSans-Italic.ttf');font-style:italic}
+@font-face{font-family:'Nanum Gothic Coding';src:url('fonts/NanumGothicCoding-Regular.ttf')}
+@font-face{font-family:'Nanum Gothic Coding';src:url('fonts/NanumGothicCoding-Bold.ttf');font-weight:700}
+:root{--bg:#0e1420;--acc-g:#9fb8d9;--ink:#1a1a1c;--dim:#4B5157;--faint:#8A8E96;--rule:#D8D4CA;--serif:'Domine',Georgia,serif;--sans:'Funnel Sans','Segoe UI',sans-serif;--mono:'Nanum Gothic Coding',monospace}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:var(--sans);font-size:9.6pt;line-height:1.42;color:var(--ink);background:#e8e6df}
+@media print{body{background:#fff}}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;display:flex;flex-direction:column;background:#fff;margin:6mm auto;box-shadow:0 1mm 4mm rgba(20,20,30,.18)}
+@media print{.page{margin:0;box-shadow:none}}
+.top{background:var(--bg);color:#fff;padding:8mm 12mm 6mm}
+.kicker{font-family:var(--mono);font-size:7.5pt;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--acc-g)}
+.kicker::before{content:"";display:inline-block;width:16pt;height:2pt;background:var(--acc-g);margin-right:6pt;vertical-align:middle}
+.top h1{font-family:var(--serif);font-size:20pt;margin-top:4pt}
+.top h1 em{font-style:normal;color:var(--acc-g)}
+.top p{margin:3pt 0 0;color:rgba(255,255,255,.78);font-size:9.5pt}
+.grid{flex:1;display:flex;flex-wrap:wrap;padding:6mm 10mm 0;gap:4mm 5mm;align-content:flex-start}
+.panel{width:calc(50% - 2.5mm);border-top:2.5pt solid var(--acc);padding-top:3pt}
+.panel.wide{width:100%}
+.panel h2{font-weight:700;margin:1pt 0 3pt;font-size:12.5pt;display:flex;align-items:baseline;gap:6pt}
+.panel h2 span{font-family:var(--mono);font-size:7pt;letter-spacing:.14em;color:var(--acc);font-weight:700}
+.panel p{margin:0 0 2.5pt;font-size:8.6pt;line-height:1.38}
+.panel.wide .cols{display:flex;gap:5mm}
+.panel.wide .cols>div{flex:1}
+.bottom{display:flex;gap:5mm;padding:3.5mm 10mm 5mm;border-top:.6pt solid var(--rule);margin:3mm 10mm 0}
+.bottom>div{flex:1}
+.bottom h3{font-family:var(--mono);font-size:7.2pt;letter-spacing:.14em;text-transform:uppercase;margin:0 0 2pt;font-weight:700}
+.bottom p{font-size:8.8pt;line-height:1.38}
+.foot{padding:2mm 10mm 6mm;display:flex;justify-content:space-between;font-family:var(--mono);font-size:7pt;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
+</style></head><body>
+<div class="page">
+<div class="top">
+<div class="kicker">The Great Silence Deck · Desk card</div>
+<h1>Every card. <em>Every line.</em></h1>
+<p>The whole deck on one page. Pin it up; the lines do the remembering.</p>
+</div>
+<div class="grid"><div class="panel" style="--acc:#8A6A1F">
+<h2><span>01</span>The Silence That Isn&#x27;T</h2>
+<p><b>The Fermi frame</b> — <i>Absence is data.</i></p><p><b>The counter-argument</b> — <i>Choose which absences matter, then monitor them.</i></p><p><b>The exercise</b> — <i>Good operators treat absence as an event.</i></p>
+</div><div class="panel" style="--acc:#2F6B5E">
+<h2><span>02</span>The Dark Forest</h2>
+<p><b>The Liu Cixin frame</b> — <i>Attack surface is the sum of everything observable, not just the software.</i></p><p><b>The counter-argument</b> — <i>Audit by default, not by accident.</i></p><p><b>The exercise</b> — <i>One lit window in a dark forest is a signal. It is also a target.</i></p>
+</div><div class="panel" style="--acc:#B54A36">
+<h2><span>03</span>The Aestivation Hypothesis</h2>
+<p><b>The thermodynamics frame</b> — <i>Efficiency is a survival metric.</i></p><p><b>The counter-argument</b> — <i>Jevons&#x27; paradox: efficiency without decisions increases consumption.</i></p><p><b>The exercise</b> — <i>Report the saving as a number, not a feeling.</i></p>
+</div><div class="panel" style="--acc:#4E5D6B">
+<h2><span>04</span>The Zoo Hypothesis</h2>
+<p><b>The observation frame</b> — <i>The same data is analytics in one room and surveillance in another.</i></p><p><b>The counter-argument</b> — <i>Name who is in the enclosure and who holds the clipboard.</i></p><p><b>The exercise</b> — <i>The last column is usually the shortest.</i></p>
+</div><div class="panel" style="--acc:#6B4E5F">
+<h2><span>05</span>The Byzantine Generals</h2>
+<p><b>The consensus frame</b> — <i>Name the assumptions or the governance is a hope.</i></p><p><b>The counter-argument</b> — <i>Agents that share a model share failure modes.</i></p><p><b>The exercise</b> — <i>How many can be wrong before the decision stops meaning anything?</i></p>
+</div><div class="panel" style="--acc:#8A6A1F">
+<h2><span>06</span>The Great Filter</h2>
+<p><b>The accountability frame</b> — <i>The filter is not an asteroid. It is a species that builds systems it cannot stop.</i></p><p><b>The counter-argument</b> — <i>A kill switch nobody knows about is not a kill switch.</i></p><p><b>The exercise</b> — <i>If you cannot fill in the four fields, you found the gap.</i></p>
+</div><div class="panel wide" style="--acc:#4A6E62">
+<h2><span>07</span>The Deck</h2>
+<div class="cols"><p><b>Six frames, one argument</b> — <i>The frames do not tell you what to think.</i></p><p><b>Somewhere to stand</b> — <i>They give you somewhere to stand while you think.</i></p></div>
+</div></div>
+<div class="bottom"><div><h3>Absence is data</h3><p>A system that says nothing is still telling you something. Choose which absences matter, then monitor them.</p></div><div><h3>The assumptions are the governance</h3><p>If you cannot say how many participants may defect and still reach a decision, you have a hope, not a model.</p></div><div><h3>Somewhere to stand</h3><p>The frames do not tell you what to think. They give you somewhere to stand while you think.</p></div></div>
+<div class="foot"><span>They give you somewhere to stand while you think.</span><span>Free to print and share · not for resale</span></div>
+</div></body></html>
