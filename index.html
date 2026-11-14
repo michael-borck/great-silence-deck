@@ -17,6 +17,9 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15}
 .kicker.dark{color:#8A6A1F}.kicker.dark::before{background:#8A6A1F}
 .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
 .hero{position:relative;background:var(--bg);color:#fff;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url('assets/art/banner.png') center/cover;opacity:.42}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,20,32,.96) 0%,rgba(14,20,32,.7) 48%,rgba(14,20,32,.25) 100%)}
+.hero .wrap{position:relative;z-index:1}
 .hero .wrap{position:relative;padding:110px 24px 120px;max-width:1060px}
 .hero h1{font-size:clamp(30px,4.6vw,46px);margin:14px 0 0}
 .hero h1 em{font-style:normal;color:var(--gold)}
@@ -42,6 +45,12 @@ section.alt{background:var(--paper)}
 .step .n{font-family:var(--serif);font-size:30px;color:var(--gold);font-weight:700}
 .step h3{font-size:16px;margin:6px 0 6px}
 .step p{font-size:13.5px;color:#4B5157}
+.split{display:grid;grid-template-columns:minmax(240px,380px) 1fr;gap:48px;align-items:center;margin-top:44px}
+.split img{width:100%;border-radius:10px;display:block;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.split h3{font-size:19px;margin:0 0 10px}
+.split p{font-size:14.5px;color:#3B3F46;margin:0 0 12px}
+.split .facts{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;color:var(--faint);line-height:2;text-transform:uppercase}
+@media(max-width:800px){.split{grid-template-columns:1fr}}
 .dl{margin-top:40px;border:1px solid #D8D4CA;border-radius:10px;overflow:hidden}
 .dl a{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:16px 22px;text-decoration:none;color:var(--ink);border-bottom:1px solid #E4E1D8}
 .dl a:last-child{border-bottom:0}
@@ -53,7 +62,7 @@ footer{background:var(--bg);color:rgba(255,255,255,.55);padding:34px 0}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
 footer .tag{color:var(--gold)}
 </style></head><body>
-<div class="hero"><div class="wrap">
+<div class="hero"><div class="bg"></div><div class="wrap">
 <div class="kicker">A free deck of moves</div>
 <h1>Thinking about AI at<br><em>civilisational scale.</em></h1>
 <p class="lede">Six frames borrowed from SETI — absence, the dark forest, aestivation, the zoo, Byzantine generals, and the great filter. Each states a claim, offers an exercise, and gives the counter-argument its fair hearing.</p>
@@ -73,6 +82,21 @@ footer .tag{color:var(--gold)}
 <h2 class="lead">Deal it. <em>Work it. Commit to three.</em></h2>
 <div class="pair"><div class="step"><div class="n">1</div><h3>Take the frames in any order</h3><p>Each stands alone: a claim, an exercise on a real system, and where the frame fails.</p></div><div class="step"><div class="n">2</div><h3>Give the counter-argument its hearing</h3><p>Every frame has an obvious objection. Run it fairly, then note where the frame fails.</p></div><div class="step"><div class="n">3</div><h3>Fill in the four fields</h3><p>The filter frame ends practical: who can stop it, what triggers the stop, who is told, what happens to work in progress.</p></div></div>
 </div></section>
+<section>
+  <div class="wrap">
+    <div class="kicker dark">The printed deck</div>
+    <h2 class="lead">Also a boxed deck <em>for the table.</em></h2>
+    <div class="split">
+      <img src="assets/art/cover.png" alt="Box art">
+      <div>
+        <h3>Card faces stay typographic on purpose</h3>
+        <p>Art lives on the box, the back and the wall — the words stay yours. Print the deck, the guide and the desk card; the boxed edition uses the art-edition sheets.</p>
+        <div class="facts">Free to print and share · not for resale · this is not a sales document</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="alt" id="download"><div class="wrap">
 <div class="kicker dark">Downloads</div>
 <h2 class="lead">Print it yourself. <em>That's the point.</em></h2>
