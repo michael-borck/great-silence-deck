@@ -28,4 +28,8 @@ Art identity pass (deep-space starlight) is the remaining pass.
 
 ## Licence
 
-Free to print and share; not for resale. Content CC BY-SA 4.0, © Michael Borck.
+Deck content: **CC BY-NC-SA 4.0** — free to print, share and adapt for
+non-commercial use with attribution; commercial use by permission.
+Print layouts and code: **MIT**. See `LICENSE`.
+
+© Michael Borck — borck.consulting.
