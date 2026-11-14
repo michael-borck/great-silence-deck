@@ -40,7 +40,7 @@ They give you somewhere to stand while you think.
 ### 04 · The Liu Cixin frame
 **The frame:** The universe is hostile, and broadcasting your coordinates is fatal. Every organisation broadcasts. The question is never whether you leak, but who is listening and what they can infer.
 
-**The test:** Attack surface is the sum of everything observable: infrastructure leaks (job ads, DNS, certificate logs — none a vulnerability, together a map), people leaks (talks, profiles, commits), and AI leaks — prompt logs, fine-tuning data and retrieval indexes are new broadcast surfaces that did not exist five years ago.
+**The test:** Three leak classes: infrastructure (job ads, DNS, certificates), people (talks, profiles, commits), and AI (prompt logs, fine-tuning data, retrieval indexes — new broadcast surfaces that did not exist five years ago).
 
 *"Attack surface is the sum of everything observable, not just the software."*
 
