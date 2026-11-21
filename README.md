@@ -1,8 +1,12 @@
 # The Great Silence Deck
 
+<p align="center">
+  <img src="assets/art/banner.png" alt="The Great Silence Deck" width="720">
+</p>
+
 Twenty cards from *The Great Silence*: six frames borrowed from SETI, applied
 to AI at civilisational scale. Free product: no gate, no capture. Content CC
-BY-SA 4.0, like the book.
+BY-NC-SA 4.0 — the book is CC BY-SA; the deck is non-commercial.
 
 **Live:** https://michael-borck.github.io/great-silence-deck/
 
@@ -20,11 +24,14 @@ and "The test".
 |---|---|
 | `silence-deck-20-cards.md` | The deck, markdown. |
 | `silence-deck-20-print.html` | Print & cut. 4 A4 pages, 8 cards per sheet. |
+| `silence-deck-20-art.html` | Art edition: portrait cards, category vignettes, 6 per A4. |
 | `silence-deck-guide.html` | One-page diagnostic. |
 | `silence-deck-desk-card.html` | Every card, every line — one A4 pin-up. |
 | `fonts/` | Domine, Funnel Sans, Nanum Gothic Coding (SIL OFL). |
 
-Art identity pass (deep-space starlight) is the remaining pass.
+Art: `assets/art/` holds the deep-space-starlight identity — cover, back, banner
+and category illustrations, generated with limn. Prompts and the locked style
+prefix are in `assets/art/README.md` and the `.png.json` sidecars.
 
 ## Licence
 
